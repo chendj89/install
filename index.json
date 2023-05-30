@@ -1,0 +1,12 @@
+{
+  "vue": [
+    "unplugin-auto-import",
+    "unplugin-icons",
+    "unplugin-vue-components",
+    "vite-plugin-svg-icons",
+    "vite-plugin-vue-setup-extend"
+  ],
+  "tools": ["naive-ui", "axios", "sass"],
+  "help": ["qs"],
+  "types": ["@types/axios", "@types/path-browserify", "@types/qs"]
+}
