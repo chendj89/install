@@ -7,6 +7,6 @@
     "vite-plugin-vue-setup-extend"
   ],
   "tools": ["naive-ui", "axios", "sass"],
-  "help": ["qs"],
+  "help": ["qs","fast-glob"],
   "types": ["@types/axios", "@types/path-browserify", "@types/qs"]
 }
