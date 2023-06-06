@@ -1,12 +1,17 @@
 {
-  "vue": [
-    "unplugin-auto-import",
-    "unplugin-icons",
-    "unplugin-vue-components",
-    "vite-plugin-svg-icons",
-    "vite-plugin-vue-setup-extend"
-  ],
-  "tools": ["naive-ui", "axios", "sass"],
-  "help": ["qs","fast-glob"],
-  "types": ["@types/axios", "@types/path-browserify", "@types/qs"]
+  "devDependencies": {
+    "vue": [
+      "unplugin-auto-import",
+      "unplugin-icons",
+      "unplugin-vue-components",
+      "vite-plugin-svg-icons",
+      "vite-plugin-vue-setup-extend"
+    ],
+    "tools": ["naive-ui", "axios", "sass"],
+    "help": ["qs", "fast-glob"],
+    "types": ["@types/axios", "@types/path-browserify", "@types/qs"]
+  },
+  "script": {
+    "volta": "volta pin node@18.14.0"
+  }
 }
